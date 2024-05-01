@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "710111848934",
+    "project_id": "msgshareapp-1663495669487",
+    "storage_bucket": "msgshareapp-1663495669487.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710111848934:android:94040aa6442cd61b6b0e27",
+        "android_client_info": {
+          "package_name": "com.example.webrtc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710111848934-e6f8puo9ktiuvlc09f2suacvdpnr1h61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6TfZmBufnkUyfAfaEtX3rtNSKCuDzF0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710111848934-e6f8puo9ktiuvlc09f2suacvdpnr1h61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

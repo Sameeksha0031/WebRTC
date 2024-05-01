@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/call_end"
+        android:icon="@drawable/baseline_call_end_24"
+        android:title="" />
+
+    <item
+        android:id="@+id/mic_on"
+        android:icon="@drawable/baseline_mic_24"
+        android:title="" />
+
+    <item
+        android:id="@+id/camera_on"
+        android:icon="@drawable/baseline_missed_video_call_24"
+        android:title="" />
+
+
+    <item
+        android:id="@+id/flip_camera"
+        android:icon="@drawable/baseline_flip_camera_ios_24"
+        android:title="" />
+
+    <item
+        android:id="@+id/screen_share"
+        android:icon="@drawable/baseline_laptop_windows_24"
+        android:title="" />
+
+</menu>

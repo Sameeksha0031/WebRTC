@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/dark_grey"
+        android:weightSum="5">
+
+    <ImageView
+        android:layout_height="80dp"
+        android:layout_width="50dp"
+        android:layout_marginStart="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_weight="0"/>
+
+    <TextView
+        android:id="@+id/userNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="18dp"
+        android:textSize="18sp"
+        android:text="xzczxczxcdasdas"
+        android:layout_weight="2"/>
+
+    <ImageView
+        android:id="@+id/audioCallBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:src="@drawable/baseline_call_end_24"
+        android:layout_gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/videoCallBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:src="@drawable/baseline_missed_video_call_24"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/statusTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="18dp"
+        android:text="Online"
+        android:textColor="@color/user_status"
+        android:layout_gravity="center|end"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
